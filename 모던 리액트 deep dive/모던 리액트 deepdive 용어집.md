@@ -1,0 +1,159 @@
+- **AJAX (Asynchronous JavaScript and XML):** 자바스크립트를 사용하여 비동기적으로 서버와 데이터를 교환하고 웹페이지의 일부를 업데이트할 수 있게 해주는 기술.
+- **Alternate (Fiber):** React Fiber 내부에서 현재 트리의 반대편 트리를 가리키는 속성. React는 두 개의 Fiber 트리를 유지하며 렌더링 간 변경 사항을 효율적으로 비교한다.
+- **AngularJS:** Google에서 개발한 자바스크립트 프레임워크로, 양방향 데이터 바인딩과 MVC 패턴을 특징으로 한다.
+- **AST (Abstract Syntax Tree):** 프로그래밍 언어의 소스 코드를 트리 구조로 추상화하여 나타낸 것. 코드 분석 및 변환에 사용된다.
+- **Atom (Recoil):** Recoil에서 상태의 최소 단위를 나타내는 개념. 업데이트 가능한 독립적인 상태를 의미한다.
+- **Babel (바벨):** 최신 자바스크립트 문법을 하위 버전의 자바스크립트로 트랜스파일(Transpile)하여 다양한 브라우저에서 호환되도록 하는 도구.
+- **Backbone.js:** 클라이언트 사이드 웹 애플리케이션을 구조화하기 위한 경량 자바스크립트 라이브러리. MVC/MVVM 패턴을 기반으로 한다.
+- **BigInt:** JavaScript에서 Number 타입이 표현할 수 있는 한계를 넘어선 큰 정수를 다루기 위한 새로운 기본 데이터 타입.
+- **Brotli:** Google에서 개발한 무손실 압축 알고리즘으로, 웹 콘텐츠의 압축률을 높여 전송 속도를 향상시킨다.
+- **Buildpack (빌드팩):** 클라우드 환경에서 애플리케이션을 빌드하고 실행하는 데 필요한 종속성과 런타임을 자동으로 감지하고 설치하는 도구.
+- **CDN (Content Delivery Network):** 사용자에게 웹 콘텐츠를 더 빠르게 전송하기 위해 지리적으로 분산된 서버 네트워크.
+- **CI/CD (Continuous Integration/Continuous Delivery):** 소프트웨어 개발의 자동화된 프로세스로, 코드를 지속적으로 통합하고 배포하여 개발 생산성을 높인다.
+- **Clickjacking (클릭재킹):** 사용자가 의도하지 않은 행동을 하도록 유도하는 악의적인 웹 공격 기술. 주로 투명한 레이어를 이용하여 클릭을 가로챈다.
+- **Client Component (클라이언트 컴포넌트):** React Server Components 아키텍처에서 브라우저(클라이언트)에서 렌더링되고 상호작용하는 컴포넌트. 파일 상단에 "use client" 지시자를 명시한다.
+- **CLS (Cumulative Layout Shift):** Google의 핵심 웹 지표 중 하나로, 페이지 로딩 중 발생하는 예상치 못한 레이아웃 이동의 총합을 측정.
+- **CommonJS:** Node.js에서 사용되는 모듈 시스템으로, 각 파일이 독립적인 모듈 스코프를 갖도록 정의한다.
+- **Commit Phase (커밋 단계):** React의 렌더링 과정 중 두 번째 단계. 렌더 단계에서 계산된 변경 사항을 실제 DOM에 적용하고, componentDidMount, componentDidUpdate, useLayoutEffect 등을 호출한다.
+- **Concurrency (동시성):** React 18에서 도입된 개념으로, 여러 작업을 동시에 처리할 수 있도록 하여 사용자 경험을 향상시킨다.
+- **Constructor (생성자):** 클래스 인스턴스가 생성될 때 호출되는 특별한 메서드. 초기 상태 설정 등에 사용된다.
+- **Context API (컨텍스트 API):** React에서 props drilling 없이 컴포넌트 트리를 통해 데이터를 전달할 수 있게 해주는 기능.
+- **Core Web Vitals (핵심 웹 지표):** Google이 사용자 경험을 측정하기 위해 정의한 웹 페이지 품질 지표 (LCP, FID, CLS).
+- **CORS (Cross-Origin Resource Sharing):** 웹 페이지의 리소스가 다른 도메인에서 요청되었을 때, 해당 리소스에 접근할 수 있도록 허용하는 메커니즘.
+- **createRoot:** React 18에서 ReactDOM.render를 대체하는 클라이언트 측 React 트리를 생성하는 새로운 API. 동시성 기능을 활성화한다.
+- **CVE (Common Vulnerabilities and Exposures):** 공개적으로 알려진 컴퓨터 보안 결함 목록.
+- **Custom Hook (사용자 정의 훅):** React 훅의 규칙을 따르는 JavaScript 함수로, 컴포넌트 간 로직을 재사용하기 위해 만들어진다.
+- **dangerouslySetInnerHTML:** React에서 브라우저 DOM의 innerHTML을 직접 설정할 수 있게 해주는 속성. XSS 공격에 취약할 수 있어 주의가 필요하다.
+- **Declarative (선언적):** 어떤 작업을 "어떻게" 수행할지보다 "무엇을" 수행할지를 정의하는 프로그래밍 방식. React는 선언적인 UI를 지향한다.
+- **Deferred Value (지연된 값):** useDeferredValue 훅을 통해 특정 값의 업데이트를 지연시켜 UI 반응성을 유지하는 개념.
+- **Definitely Typed:** TypeScript 타입 정의 파일(.d.ts)을 호스팅하는 저장소로, JavaScript 라이브러리에 대한 타입스크립트 지원을 제공한다.
+- **Dependabot:** GitHub에서 제공하는 서비스로, 프로젝트의 의존성에서 보안 취약점을 감지하고 자동으로 업데이트 풀 리퀘스트를 생성한다.
+- **DevTools (개발자 도구):** 웹 브라우저에 내장된 웹 개발 및 디버깅 도구.
+- **DigitalOcean App Platform:** 컨테이너 기반 애플리케이션을 빠르게 배포하고 스케일링할 수 있는 DigitalOcean의 PaaS(Platform as a Service) 솔루션.
+- **DisplayName:** React 컴포넌트에 개발자 도구에서 식별할 수 있는 이름을 명시적으로 부여하는 속성. 디버깅에 유용하다.
+- **DOM (Document Object Model):** 웹 페이지의 HTML 및 XML 문서를 프로그램적으로 접근하고 조작할 수 있도록 트리 구조로 표현하는 인터페이스.
+- **Docker:** 애플리케이션을 컨테이너라는 격리된 환경에 패키징하여 배포와 실행을 용이하게 하는 오픈소스 플랫폼.
+- **Docker Hub:** Docker 이미지의 공개 및 비공개 저장소 역할을 하는 클라우드 기반 레지스트리 서비스.
+- **Dockerfile:** Docker 이미지를 빌드하기 위한 지침이 포함된 텍스트 파일.
+- **DOMContentLoded:** HTML 문서가 완전히 로드되고 파싱되었을 때 발생하는 이벤트. 이미지, 스타일시트 등 외부 리소스 로딩은 기다리지 않는다.
+- **E2E (End-to-End Test):** 애플리케이션의 시작부터 끝까지 전체 사용자 흐름을 테스트하는 방식.
+- **Effect (부수 효과):** React 컴포넌트의 렌더링 결과에 영향을 미치지 않지만, 컴포넌트의 외부 세계와 상호작용하는 작업 (데이터 fetching, DOM 조작, 구독 설정 등). useEffect 훅으로 관리한다.
+- **ES Modules (ESM):** ECMAScript 표준에 정의된 모듈 시스템으로, import와 export 구문을 사용한다.
+- **ESLint:** JavaScript 코드에서 발견되는 문제 패턴을 식별하고 보고하는 정적 분석 도구. 코드 품질과 일관성을 유지하는 데 도움이 된다.
+- **FCP (First Contentful Paint):** 웹 페이지 로드 성능 지표 중 하나로, 사용자가 페이지에서 콘텐츠의 첫 번째 픽셀을 볼 수 있는 시간.
+- **fetch:** 웹 브라우저에서 서버로 네트워크 요청을 보내고 응답을 받아오는 JavaScript API.
+- **Fiber (파이버):** React 16부터 도입된 React의 새로운 재조정 엔진. 컴포넌트 트리를 순회하고 렌더링 작업을 스케줄링하기 위한 내부 자료구조.
+- **FID (First Input Delay):** Google의 핵심 웹 지표 중 하나로, 사용자가 페이지와 처음 상호 작용할 때부터 브라우저가 해당 상호 작용에 대한 응답으로 이벤트 핸들러 처리를 시작할 때까지의 시간.
+- **Filmstrip:** WebPageTest와 같은 성능 분석 도구에서 웹 페이지 로딩 과정을 시간 순서대로 스크린샷으로 보여주는 기능.
+- **FireEvent:** React Testing Library에서 사용자의 이벤트를 시뮬레이션하는 유틸리티 함수.
+- **Flow:** Facebook에서 개발한 JavaScript를 위한 정적 타입 체커.
+- **Falsy:** JavaScript에서 Boolean 컨텍스트에서 false로 평가되는 값 (예: 0, "", null, undefined, NaN).
+- **GCP (Google Cloud Platform):** Google이 제공하는 클라우드 컴퓨팅 서비스 모음.
+- **Generic (제네릭):** 타입스크립트에서 재사용 가능한 컴포넌트를 만들 때 타입을 인수로 받아 유연하게 사용할 수 있도록 하는 기능.
+- **getStaticPaths (Next.js):** Next.js에서 동적인 경로를 가진 페이지의 빌드 시점에 정적으로 생성할 경로 목록을 정의하는 함수.
+- **getStaticProps (Next.js):** Next.js에서 빌드 시점에 데이터를 fetching하여 정적 HTML 페이지를 미리 생성하는 함수.
+- **getServerSideProps (Next.js):** Next.js에서 서버 사이드 렌더링 시 요청이 들어올 때마다 데이터를 fetching하여 페이지를 렌더링하는 함수.
+- **GitHub Actions:** GitHub 저장소에서 코드를 기반으로 자동화된 워크플로우를 실행할 수 있는 CI/CD 서비스.
+- **Glossary (용어집):** 특정 분야에서 사용되는 용어와 그 정의를 모아 놓은 목록.
+- **Gzip:** 파일을 압축하여 네트워크를 통한 데이터 전송량을 줄이는 데 사용되는 파일 형식 및 소프트웨어 압축 알고리즘.
+- **HOC (Higher Order Component):** 컴포넌트를 인수로 받아 새로운 컴포넌트를 반환하는 함수. React 컴포넌트 로직을 재사용하는 패턴 중 하나.
+- **Hydration (하이드레이션):** 서버에서 미리 렌더링된 HTML에 클라이언트 측 JavaScript 코드를 사용하여 React 애플리케이션의 동적인 기능을 추가하는 과정.
+- **IE 11 (Internet Explorer 11):** Microsoft에서 개발한 웹 브라우저의 마지막 버전. 현재는 지원이 종료되었다.
+- **Immutable (불변):** 데이터가 한 번 생성되면 변경할 수 없는 속성. React에서 상태 관리에 불변성이 중요한 역할을 한다.
+- **Injection (인젝션):** 사용자가 제공하는 데이터를 조작하여 시스템에 악의적인 명령을 주입하는 공격 (예: SQL Injection, XSS).
+- **Instanceof (인스턴스오브):** JavaScript 연산자로, 객체가 특정 클래스의 인스턴스인지 확인한다.
+- **JQuery (제이쿼리):** 웹 브라우저의 DOM 조작, 이벤트 처리, 애니메이션 등을 더 쉽게 할 수 있도록 돕는 자바스크립트 라이브러리.
+- **Jest:** Facebook에서 개발한 JavaScript 테스팅 프레임워크. 다양한 어설션 메서드와 모킹 기능을 제공한다.
+- **Jotai:** Recoil에서 영감을 받은 경량화된 React 상태 관리 라이브러리로, 아톰(atom)을 기반으로 상태를 관리한다.
+- **JSX (JavaScript XML):** React에서 UI를 정의하는 데 사용되는 JavaScript의 확장 문법. JavaScript 코드 내부에 HTML과 유사한 마크업을 작성할 수 있게 해준다.
+- **JSP (JavaServer Pages):** HTML 코드 안에 자바 코드를 삽입하여 웹 서버에서 동적으로 웹 페이지를 생성하는 기술.
+- **Key (키):** React에서 리스트 렌더링 시 각 항목을 고유하게 식별하기 위해 사용되는 prop. 효율적인 리렌더링 및 DOM 업데이트를 돕는다.
+- **LAMP Stack:** Linux, Apache, MySQL, PHP로 구성된 웹 개발 환경의 스택.
+- **Layout Shift (레이아웃 이동):** 웹 페이지 로딩 중 예상치 못하게 요소의 위치나 크기가 변경되어 발생하는 시각적 불안정 현상. CLS 지표에 영향을 미친다.
+- **LCP (Largest Contentful Paint):** Google의 핵심 웹 지표 중 하나로, 페이지 로드 시작 시점부터 뷰포트 내 가장 큰 이미지 또는 텍스트 블록의 렌더링 시간을 측정.
+- **Long Task (긴 작업):** 메인 스레드에서 50ms 이상 실행되어 UI 반응성을 저하시키는 작업. FID와 TBT에 영향을 미친다.
+- **MDN (Mozilla Developer Network):** 웹 기술(HTML, CSS, JavaScript, 웹 API)에 대한 포괄적인 문서와 가이드를 제공하는 웹사이트.
+- **Memoization (메모이제이션):** 함수의 결과를 캐시하여 동일한 입력에 대해 불필요한 재계산을 피하는 최적화 기법. useMemo, useCallback, React.memo 등으로 구현한다.
+- **MSW (Mock Service Worker):** 네트워크 요청을 서비스 워커 수준에서 가로채어 모의 응답을 제공하는 라이브러리. 테스트 및 개발 환경에서 API 모킹에 사용된다.
+- **MWM (Model-View-ViewModel):** 소프트웨어 아키텍처 패턴으로, 사용자 인터페이스와 비즈니스 로직을 분리하여 개발의 효율성과 유지보수성을 높인다.
+- **MVP (Model-View-Presenter):** 소프트웨어 아키텍처 패턴으로, View와 Model의 결합도를 낮추고 Presenter가 중간에서 이들을 연결한다.
+- **MVC (Model-View-Controller):** 소프트웨어 아키텍처 패턴으로, 애플리케이션을 데이터(Model), 사용자 인터페이스(View), 사용자 입력 처리(Controller)로 분리한다.
+- **Next.js:** React 기반의 풀스택 웹 프레임워크로, 서버 사이드 렌더링, 정적 사이트 생성, API 라우트 등 다양한 기능을 제공한다.
+- **NGINX (엔진엑스):** 웹 서버 소프트웨어로, 정적 콘텐츠 제공, 리버스 프록시, 로드 밸런싱 등 다양한 기능을 수행한다.
+- **Node.js:** Chrome V8 JavaScript 엔진으로 빌드된 JavaScript 런타임으로, 서버 사이드 애플리케이션 개발을 가능하게 한다.
+- **npm (Node Package Manager):** Node.js 환경에서 사용되는 패키지 관리자.
+- **Object.is:** JavaScript에서 두 값의 동등성```(strict equality, ===와 유사하지만 NaN과 +0/-0 처리 방식이 다름)을 확인하는 메서드. React의 shallowEqual에서 사용된다. ```
+- **Open Source (오픈소스):** 소스 코드가 공개되어 누구나 자유롭게 사용, 수정, 배포할 수 있는 소프트웨어.
+- **OWASP (Open Worldwide Application Security Project):** 웹 애플리케이션 보안을 연구하고, 일반적인 웹 보안 취약점(OWASP Top 10)을 공개하는 비영리 단체.
+- **overrides (npm):** package.json에서 특정 의존성(중첩된 의존성 포함)의 버전을 강제로 지정할 수 있는 기능. 보안 취약점 해결 등에 활용된다.
+- **Paas (Platform as a Service):** 클라우드 서비스 모델 중 하나로, 애플리케이션 개발, 실행, 관리 플랫폼을 제공한다.
+- **PHP (Hypertext Preprocessor):** 서버 측 스크립트 언어로, 웹 개발에 널리 사용된다.
+- **Polyfill (폴리필):** 특정 기능이 지원되지 않는 구형 브라우저에서 해당 기능을 사용할 수 있도록 해주는 코드.
+- **Preact:** React API와 호환되면서도 더 작고 빠른 대안으로 개발된 JavaScript 라이브러리.
+- **Prettier:** 코드 포맷터로, 일관된 코드 스타일을 유지하도록 자동으로 코드를 정돈해준다.
+- **Prop Drilling (prop 내려주기):** React 컴포넌트 트리에서 깊숙이 위치한 자식 컴포넌트에 데이터를 전달하기 위해 중간에 있는 여러 부모 컴포넌트들을 거쳐 props를 전달해야 하는 문제. Context API나 전역 상태 관리 라이브러리로 해결한다.
+- **Props (프롭스):** React 컴포넌트 간에 데이터를 전달하는 읽기 전용 속성.
+- **Prototypes (프로토타입):** JavaScript에서 객체 지향 프로그래밍을 구현하는 핵심 메커니즘. 객체가 다른 객체의 속성과 메서드를 상속받을 수 있도록 한다.
+- **Prototype Chaining (프로토타입 체이닝):** JavaScript에서 객체의 속성이나 메서드에 접근할 때, 해당 객체에 없으면 프로토타입 링크를 따라 상위 프로토타입으로 계속 찾아 올라가는 과정.
+- **PWA (Progressive Web App):** 웹 기술을 사용하여 앱과 같은 사용자 경험을 제공하는 웹 애플리케이션. 오프라인 지원, 푸시 알림 등의 기능을 포함한다.
+- **PureComponent:** React 클래스 컴포넌트의 한 종류로, shouldComponentUpdate를 props와 state의 얕은 비교로 자동 구현하여 불필요한 리렌더링을 방지한다.
+- **React:** 사용자 인터페이스(UI)를 구축하기 위한 JavaScript 라이브러리.
+- **React Query:** 서버 상태(비동기 데이터) 관리에 특화된 React 라이브러리. 캐싱, 데이터 동기화, 에러 처리 등을 쉽게 할 수 있도록 돕는다.
+- **React Testing Library:** React 컴포넌트의 테스트를 사용자 관점에서 작성하도록 돕는 라이브러리.
+- **Recoil:** Facebook에서 개발한 React 상태 관리 라이브러리로, Atom과 Selector 개념을 사용하여 유연하고 분산된 상태 관리를 가능하게 한다.
+- **Reducer (리듀서):** 현재 상태와 액션을 인수로 받아 새로운 상태를 반환하는 순수 함수. useReducer 훅이나 Redux에서 사용된다.
+- **Ref (레프):** React에서 DOM 요소나 컴포넌트 인스턴스에 직접 접근하기 위한 메커니즘. useRef 훅으로 사용한다.
+- **Referrer-Policy:** HTTP 응답 헤더로, Referer 헤더에 어떤 정보를 포함하여 전송할지 제어하여 개인 정보 보호 및 보안을 강화한다.
+- **Render Phase (렌더 단계):** React의 렌더링 과정 중 첫 번째 단계. 컴포넌트를 실행하고, 이전 가상 DOM과 비교하여 변경이 필요한 컴포넌트를 체크한다.
+- **RenderToString (ReactDOMServer):** React 컴포넌트를 HTML 문자열로 렌더링하는 서버 사이드 API.
+- **REST (Representational State Transfer):** 웹 서비스 디자인 아키텍처 스타일로, HTTP 메서드를 사용하여 리소스를 조작한다.
+- **Run-to-completion:** JavaScript의 싱글 스레드 특성. 하나의 코드 블록이 실행되기 시작하면 완료될 때까지 다른 작업이 인터럽트될 수 없다는 것을 의미한다.
+- **Rust:** 성능과 안정성에 중점을 둔 시스템 프로그래밍 언어. 웹어셈블리와 함께 웹 개발에서 활용도가 높아지고 있다.
+- **sanitize-html:** HTML 문자열에서 잠재적으로 위험한 태그나 속성을 제거하여 XSS 공격을 방지하는 라이브러리.
+- **Scope (스코프):** 변수나 함수에 접근할 수 있는 범위. JavaScript는 함수 레벨 스코프를 기본으로 한다.
+- **Semantic Versioning (유의적 버전):** 소프트웨어 버전 관리를 위한 표준 규칙 (Major.Minor.Patch)으로, 버전 번호의 의미를 명확히 정의하여 호환성 변화를 나타낸다.
+- **Server Action (서버 액션):** Next.js 13에서 도입된 기능으로, 클라이언트 컴포넌트에서 직접 서버 함수를 호출할 수 있게 해준다.
+- **Server Component (서버 컴포넌트):** React Server Components 아키텍처에서 서버에서 렌더링되고, 클라이언트로 전송되는 컴포넌트.
+- **shallowEqual:** 두 객체의 속성들이 얕은 비교```(===)를 통해 모두 동일한지 확인하는 함수. React의 PureComponent나 React.memo에서 사용된다.```
+- **Side Effect (부수 효과):** 함수나 표현식의 실행이 함수의 반환 값 외에 외부 상태를 변경하는 것 (예: 콘솔 로그, 네트워크 요청, DOM 변경). useEffect 훅으로 관리한다.
+- **Single Thread (싱글 스레드):** 한 번에 하나의 작업만 실행할 수 있는 처리 방식. JavaScript의 기본 동작 방식이다.
+- **SPA (Single Page Application):** 단일 HTML 페이지를 로드하고, JavaScript를 사용하여 페이지 콘텐츠를 동적으로 업데이트하는 웹 애플리케이션.
+- **Spy (스파이):** Jest에서 함수의 호출 여부, 호출 횟수, 전달된 인수 등을 감시하는 테스트 더블. jest.spyOn()으로 구현한다.
+- **SSR (Server Side Rendering):** 웹 페이지의 콘텐츠를 서버에서 미리 렌더링하여 클라이언트에 전송하는 방식. 초기 로딩 성능 및 SEO에 유리하다.
+- **State (상태):** React 컴포넌트 내부에서 변경될 수 있는 데이터. useState 훅이나 this.state로 관리한다.
+- **StrictMode (엄격 모드):** React 애플리케이션에서 잠재적인 문제를 찾아내기 위한 개발 전용 컴포넌트. useEffect의 이중 실행 등을 통해 Side Effect를 확인한다.
+- **Streaming (스트리밍):** 서버에서 HTML 콘텐츠를 점진적으로 클라이언트에 전송하여 초기 로딩 시간을 단축하고 사용자 경험을 향상시키는 기법.
+- **Styled Components:** CSS-in-JS 라이브러리로, JavaScript 코드 내에서 컴포넌트 기반으로 스타일을 작성할 수 있게 해준다.
+- **Svelte:** 빌드 시점에 코드를 컴파일하여 브라우저에서 실행될 때 최소한의 JavaScript를 생성하는 웹 프레임워크.
+- **SWR:** React Hooks를 기반으로 한 데이터 fetching 라이브러리로, 클라이언트 캐싱, 재검증, 에러 처리 등을 간편하게 해준다.
+- **Syntactic Sugar (문법적 설탕):** 코드를 더 읽기 쉽거나 표현하기 쉽게 만드는 프로그래밍 언어의 문법적 요소. 클래스가 대표적인 예시이다.
+- **Tearing (테어링):** 동시성 환경에서 외부 데이터 소스의 불일치로 인해 UI가 일관되지 않게 보이는 현상. useSyncExternalStore 훅으로 해결한다.
+- **Template Literal (템플릿 리터럴):** JavaScript에서 백틱(`)을 사용하여 표현식을 포함하거나 여러 줄에 걸쳐 문자열을 작성할 수 있게 해주는 문법.
+- **Test Driven Development (TDD):** 테스트 코드를 먼저 작성하고, 그 테스트를 통과하는 코드를 작성하는 개발 방법론.
+- **Truthy:** JavaScript에서 Boolean 컨텍스트에서 true로 평가되는 값 (falsy 값 이외의 모든 값).
+- **TTFB (Time To First Byte):** 웹 성능 지표 중 하나로, 사용자가 웹페이지를 요청한 시점부터 서버에서 첫 번째 바이트를 받기까지의 시간.
+- **Turbopack:** Next.js 개발팀에서 개발 중인 Rust 기반의 웹 빌드 도구로, 웹팩(Webpack)을 대체할 예정이다.
+- **TypeScript (타입스크립트):** JavaScript의 슈퍼셋으로, 정적 타입 체크 기능을 추가하여 코드의 안정성과 개발 생산성을 높인다.
+- **UI (User Interface):** 사용자가 컴퓨터 시스템과 상호작용하는 수단 또는 방식.
+- **UFI (Universal Feedback Interface):** Facebook에서 좋아요, 댓글, 공유 버튼 등 사용자 피드백을 처리하는 인터페이스를 구현하며 React 개발이 시작된 프로젝트.
+- **Unkown (알 수 없음):** 타입스크립트에서 어떤 타입인지 미리 알 수 없는 값을 나타내는 타입. any보다 안전하게 타입을 다룰 수 있다.
+- **useCallback:** React Hook으로, 인수로 전달된 콜백 함수 자체를 메모이제이션하여 불필요한 함수 재생성을 방지한다.
+- **useContext:** React Hook으로, React Context에서 값을 구독하여 함수 컴포넌트에서 Context 값을 사용할 수 있게 해준다.
+- **useDeferredValue:** React Hook으로, 특정 값의 업데이트를 긴급하지 않은 것으로 간주하여 UI 반응성을 유지하는 데 사용된다.
+- **useEffect:** React Hook으로, 함수 컴포넌트에서 렌더링 이후에 발생하는 부수 효과(side effects)를 실행하고 정리하는 데 사용된다.
+- **useId:** React 18에서 도입된 Hook으로, 클라이언트와 서버에서 일관된 고유 ID를 생성하여 하이드레이션 문제를 해결한다.
+- **useLayoutEffect:** React Hook으로, DOM이 완전히 업데이트된 후에 동기적으로 실행되는 부수 효과. 레이아웃 계산이나 DOM 측정에 사용된다.
+- **useMemo:** React Hook으로, 비용이 많이 드는 연산의 결과를 메모이제이션하여 불필요한 재계산을 방지한다.
+- **useReducer:** React Hook으로, useState의 대안으로 복잡한 상태 로직을 관리하고 상태 변화를 예측 가능하게 하는 데 사용된다.
+- **useRef:** React Hook으로, DOM 요소나 컴포넌트 인스턴스에 직접 접근하거나 렌더링에 영향을 주지 않는 값을 저장하는 데 사용된다.
+- **useState:** React Hook으로, 함수 컴포넌트에서 상태 변수와 그 상태를 업데이트하는 함수를 선언할 수 있게 해준다.
+- **useSyncExternalStore:** React 18에서 도입된 Hook으로, React 외부의 상태 관리 라이브러리와 React 상태를 효율적으로 동기화하여 테어링 문제를 해결한다.
+- **useTransition:** React 18에서 도입된 Hook으로, UI 변경을 가로막지 않고 상태 업데이트를 할 수 있게 하여 사용자 경험을 향상시킨다.
+- **UserEvent:** React Testing Library에서 실제 사용자 상호 작용(예: 텍스트 입력, 클릭 시뮬레이션)을 더 정확하게 시뮬레이션하는 라이브러리.
+- **Vercel:** Next.js 개발사인 Vercel에서 제공하는 웹 애플리케이션 배포 플랫폼.
+- **Virtual DOM (가상 DOM):** React에서 실제 DOM의 가벼운 복사본으로, UI 변경 사항을 먼저 메모리에서 계산하고 실제 DOM에 효율적으로 반영하는 데 사용된다.
+- **Vue.js:** 점진적인 채택이 가능한 JavaScript 프레임워크로, 컴포넌트 기반 개발과 쉬운 학습 곡선을 특징으로 한다.
+- **WebAssembly (웹어셈블리):** 웹 브라우저에서 고성능 애플리케이션을 실행할 수 있도록 하는 새로운 바이너리 코드 형식. C, C++ 등 다른 언어로 작성된 코드를 웹에서 실행할 수 있게 한다.
+- **WebPageTest:** 웹사이트 성능을 종합적으로 분석하고 다양한 관점에서 보고서를 제공하는 온라인 도구.
+- **XSS (Cross-Site Scripting):** 웹사이트에 악성 스크립트를 주입하여 사용자 정보를 탈취하거나 웹사이트를 변조하는 공격.
+- **Zustand:** 경량화된 React 상태 관리 라이브러리로, Context API나 Redux보다 간결한 API를 제공한다.
